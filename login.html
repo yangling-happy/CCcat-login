@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login - CCcat</title>
+    <meta
+      name="description"
+      content="Login to CCcat, the ultimate cataloging tool for all your collections."
+    />
+    <meta name="author" content="A.Y." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="screen" href="login.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/catalog">Catalog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/join us"> Join us</a></li>
+      </ul>
+    </div>
+    <div class="left-side">
+      <a
+        href="https://baike.baidu.com/item/cc%E7%8C%AB/1533216"
+        target="_blank"
+        title="KNOW MORE ABOUT CCCAT"
+        ><h1>CCcat</h1>
+      </a>
+      <div class="cats">
+        <div class="gif-wrap">
+          <img src="imgs/1.gif" class="gif" />
+          <img src="imgs/1.png" class="static" />
+        </div>
+        <div class="gif-wrap">
+          <img src="imgs/2.gif" class="gif" />
+          <img src="imgs/2.png" class="static" />
+        </div>
+        <div class="gif-wrap">
+          <img src="imgs/3.gif" class="gif" />
+          <img src="imgs/3.png" class="static" />
+        </div>
+        <div class="gif-wrap">
+          <img src="imgs/4.gif" class="gif" />
+          <img src="imgs/4.png" class="static" />
+        </div>
+        <div class="gif-wrap">
+          <img src="imgs/5.gif" class="gif" />
+          <img src="imgs/5.png" class="static" />
+        </div>
+        <div class="gif-wrap">
+          <img src="imgs/6.gif" class="gif" />
+          <img src="imgs/6.png" class="static" />
+        </div>
+      </div>
+      <p>
+        CC's daily routine:<br />
+        nap in the sun , beg for a treat<br />
+        curl up on your lap the second you sit down<br />
+      </p>
+    </div>
+    <div class="login-container">
+      <h1>CCcat Login</h1>
+      <div class="gif-wrap">
+        <img src="imgs/7.gif" id="gif" />
+        <img src="imgs/7.png" id="png" />
+      </div>
+
+      <form action="/login" method="post">
+        <div class="input-group">
+          <svg width="70" height="70" viewBox="0 0 100 90">
+            <!-- 鹅黄色底色（整体爪形轮廓） -->
+            <path
+              d="M50,20 Q80,20 90,50 Q90,80 50,80 Q10,80 10,50 Q20,20 50,20"
+              fill="#fff3c4"
+            />
+            <!-- 粉色肉垫（掌心） -->
+            <circle cx="50" cy="55" r="15" fill="#ffccd5" />
+            <!-- 粉色肉垫（脚趾） -->
+            <circle cx="30" cy="30" r="10" fill="#ffccd5" />
+            <circle cx="50" cy="20" r="10" fill="#ffccd5" />
+            <circle cx="70" cy="30" r="10" fill="#ffccd5" />
+          </svg>
+          <label for="username">Username</label>
+        </div>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          autocomplete="off"
+        />
+
+        <br />
+        <div class="input-group">
+          <svg width="70" height="70" viewBox="0 0 100 90">
+            <!-- 鹅黄色底色（整体爪形轮廓） -->
+            <path
+              d="M50,20 Q80,20 90,50 Q90,80 50,80 Q10,80 10,50 Q20,20 50,20"
+              fill="#fff3c4"
+            />
+            <!-- 粉色肉垫（掌心） -->
+            <circle cx="50" cy="55" r="15" fill="#ffccd5" />
+            <!-- 粉色肉垫（脚趾） -->
+            <circle cx="30" cy="30" r="10" fill="#ffccd5" />
+            <circle cx="50" cy="20" r="10" fill="#ffccd5" />
+            <circle cx="70" cy="30" r="10" fill="#ffccd5" />
+          </svg>
+          <label for="password">Password</label>
+        </div>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          autocomplete="off"
+        />
+
+        <br />
+
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="/register">Register here</a></p>
+      <!-- <p><a href="/">Back to home</a></p> -->
+    </div>
+  </body>
+</html>
